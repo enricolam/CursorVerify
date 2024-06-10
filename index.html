@@ -5,12 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cursor Verify</title>
   <style>
-    .cursor-container {
+    html{
+      background-color:#EEEBDB;
+      color: #101820;
+      user-select:none;
+    }
+    .description{
+      display: inline;
+      width: 100vw;
+      height: 20vh;
+      text-align: center;
+    }
+    .cursor-container{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 80vh;
       row-gap: 20px;
       column-gap: 20px;
     }
@@ -62,6 +73,10 @@
   </style>
 </head>
 <body>
+  <div class="description">
+    <h1>Cursor Verify</h1>
+    <p>Put your cursor on the boxes, voila</p>
+  </div>
   <div class="cursor-container">
     <div class="cursor-item default">Default</div>
     <div class="cursor-item pointer">Pointer</div>
