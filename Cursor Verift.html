@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursor Verift</title>
+  <style>
+    .cursor-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+
+    .cursor-item {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .default {
+      background-color: #E8927C;
+      cursor: default;
+    }
+
+    .pointer {
+      background-color: #EED484;
+      cursor: pointer;
+    }
+
+    .move {
+      background-color: #71CC98;
+      cursor: move;
+    }
+
+    .text {
+      background-color: #B06C96;
+      cursor: text;
+    }
+
+    .wait {
+      background-color: #C97972;
+      cursor: wait;
+    }
+
+    .crosshair {
+      background-color: #8986CA;
+      cursor: crosshair;
+    }
+
+    .not-allowed {
+      background-color: #86C6ED;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <div class="cursor-container">
+    <div class="cursor-item default">Default</div>
+    <div class="cursor-item pointer">Pointer</div>
+    <div class="cursor-item move">Move</div>
+    <div class="cursor-item text">Text</div>
+    <div class="cursor-item wait">Wait</div>
+    <div class="cursor-item crosshair">Crosshair</div>
+    <div class="cursor-item not-allowed">Not-allowed</div>
+  </div>
+</body>
+</html>
