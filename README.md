@@ -3,7 +3,7 @@
 This project is a handy tool for verifying custom cursor styles. It provides a visual reference for the different cursor states available in CSS, making it easier to ensure your website or application is using the correct cursor styles.
 
 ## Live Demo
-You can view a live demo of the project [here](https://enricolam.github.io/cursor-verify/).
+You can view a live demo of the project [here](https://enricolam.github.io/CursorVerify/).
 
 ## Screenshots
 ![Cursor States Screenshot](screenshot.png)
